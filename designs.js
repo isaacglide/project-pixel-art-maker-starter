@@ -3,7 +3,7 @@ let colorPicking = document.querySelector('#colorPicker');
 let chosenColor = null;
 
 colorPicking.addEventListener('input',function (event) {
-  let chosenColor = event.target;
+  let chosenColor = event.target.value;
 });
 
 
